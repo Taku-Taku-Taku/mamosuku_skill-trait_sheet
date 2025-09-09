@@ -72,6 +72,7 @@ def convert_and_log(csv_file, docx_file, title):
 
 # 変換したいファイルをここに追加する
 files_to_convert = [
+    # ("CSV名","word名","word内のタイトル名")
     ("magi_common.csv", "共通マギ_一覧.docx", "共通マギ一覧"),
     ("magi_pc.csv",     "PC用マギ_一覧.docx", "PC用マギ一覧"),
     ("magi_clan.csv",   "クラン用マギ_一覧.docx", "クラン用マギ一覧"),
